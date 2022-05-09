@@ -1,0 +1,1 @@
+*{box-sizing:border-box}.container{background-color:black;color:white}.border,.outline{width:100px;padding:10px 25px;background-color:rgb(102,102,102);margin:50px 100px}.border{border:2px solid lightcoral}.outline{outline:10px double lightcoral;outline-offset:10px}

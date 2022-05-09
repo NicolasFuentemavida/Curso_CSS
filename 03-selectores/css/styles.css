@@ -1,0 +1,99 @@
+/*slectores*/
+
+/*
+    Slectores Simples
+        Selectores Elementales
+            Selector Universal -> *
+        Selectores de Atribuo -> Nombre de la etiqueta
+            id -> id del elemto
+            clase -> clase del elemento
+            otros atributos
+                selecciona todo
+                [atributo]
+                selecciona al que tenga ese valor 
+                [atributo=valor]
+                selecciona primera palabra de ese valor
+                [atributo^=valor]
+                selecciona todo aque que tenga es valor
+                [atributo*=valor]
+                para seleccionar el que tiene como ultimo valor
+                [atributo$=valor]
+                [atributo$=valor]
+                [atributo|=valor]
+
+
+    Selectores Comuestos
+        Selectores Agrupados
+        Selectores Combinados
+            selector descendiente
+            selector hermano siguente +
+            selector de hermanos SIGUIENTES ~	
+        seudoclases - Pseudoelementos
+*/
+/*
+*{
+  background-color: rgb(131, 131, 131);
+}
+
+h1 {
+  background-color: rgb(65, 65, 65);
+}
+
+ul {
+  background-color: blue;
+}
+
+li {
+  background-color: red;
+}
+
+con Id no es recomendable dar estilo ya que no es reutilizable y es un indicador 
+ #title{
+    background-color:rgba(62, 203, 6, 0.55) ;
+} 
+
+.parrafo{
+    background-color: blueviolet;
+}
+
+[href]{
+    background-color: aqua;
+}
+
+[href="https://facebook.com"]{
+    background-color: blue;
+}
+
+[href^="color"]{
+    background-color: red;
+}
+
+[href*="modo"]{
+    background-color: rgb(253, 0, 143);
+}
+
+[href$="amarillo"]{
+    background-color: yellow;
+}
+[href$="seccion-verde"]{
+    background-color: green;
+}
+[lang|="es-CL"]{
+    background-color: darkblue;
+}
+
+.text-1,.text-2,.text-3,.text-4{
+    background-color: aqua;
+}
+*/
+
+div .title-2{
+    background-color: brown;
+}
+
+h2 + .text-3{
+    background-color: blue;
+}
+.text-3 ~ p{
+    background-color: blueviolet;
+}

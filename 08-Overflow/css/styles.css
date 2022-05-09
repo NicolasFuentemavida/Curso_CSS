@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.box{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    /*
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 150px;
+    border-radius: 50px;
+    border-bottom-left-radius: 50px 100px;
+    border-radius: 50px 100px 150px 200px / 50px 100px 150px 200px;
+    */
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.box-2, .box-3{
+    padding: 10px;
+    background-color: blueviolet;
+    width: 300px;
+    height: 150px;
+}
+.text{
+    color: white;
+    margin: 0;
+
+}

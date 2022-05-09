@@ -1,0 +1,193 @@
+/*
+    -> Margin:
+    Es La propiedad que nos permite generar espacio entre elementos.
+    Es un shorthand (propiedad abreviada) que controla Los 4 Lados posibles a los que dar márgenes.
+
+    margin-top: Margen superior 
+    margin-right: Margen derecho
+    margin-bottom: Margen inferior
+    margin-left: Margen izquierdo
+
+    Admite hasta 4 valores que van en el orden de las agujas    del reloj.
+
+    4 valores -> margin: top right bottom left;
+    3 valores -> margin: top Left/right bottom;
+    2 valores -> margin: top/bottom Left/right;
+    1 valor -> margin: top/right/bottom/Left
+
+   -> Padding:
+    Es La propiedad que nos permite generar espacio interno entre el borde y la caja Es un shorthand (propiedad abreviada) que controla Los 4 Lados posibles a los que dar padding.
+
+    padding-top: padding superior
+    padding-right: padding derecho
+    padding-bottom:
+    padding inferior
+    padding-left: padding izquierdo
+
+    Admite hasta 4 valores que van en el orden de las
+    agujas del reloj.
+    
+    4 valores -> padding: top right bottom Left;
+    3 valores -> padding: top left/right bottom;
+    2 valores -> padding: top/bottom Left/right;
+    1 valor -> padding: top/right/bottom/Left
+
+    Border:
+        Es La propiedad que nos permite modificar el
+        borde de la caja
+
+        Es un shorthand (propiedad abreviada) que agrupa
+        3 propiedades
+
+        border-width: ancho del borde
+        border-style: estilo del borde
+        border-color: color del borde
+    
+    Box-sizing:
+    Es La propiedad que nos permite controlar el
+    cálculo que hace el navegador a la hora de
+    modificar las propiedades content, padding y
+    border.
+
+    Los 2 valores que podemos darle son
+
+    content-box -> Valor por defecto
+    border-box -> Cálculo de tamaño del elemento
+    incluyendo el padding y el border.
+
+*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: aliceblue;
+  margin: 0%;
+}
+
+.header {
+  background-color: red;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  background-color: blue;
+  color: cyan;
+  width: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  background-color: coral;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px ;
+  /*margin: 100px 50px 10px 200px;*/
+  /*padding: 100px 50px 10px 200px;*/
+}
+
+/*los elementos en linea no se les puede dar
+un alto y ancho ya que no se ve representado
+si tienen margenes laterales izquierdo y derecho */
+
+.inline {
+  background-color: lightcoral;
+  color: inherit;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.inline2 {
+  background-color: lightcoral;
+  color: inherit;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.butons {
+  background-color: skyblue;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buton {
+  margin-left: 240px;
+  padding: 25px 50px;
+}
+
+.boton1,
+.boton2,
+.boton3,
+.boton4,
+.boton5,
+.boton6,
+.boton7,
+.boton8,
+.boton9,
+.boton10 {
+  margin: 20px;
+  padding: 20px;
+  border: 20px solid cyan;
+  border-radius: 15px;
+}
+.boton1 {
+  border-style: none;
+}
+.boton2 {
+  border-style: dotted;
+}
+.boton3 {
+  border-style: dashed;
+}
+.boton4 {
+  border-style: solid;
+}
+.boton5 {
+  border-style: double;
+}
+.boton6 {
+  border-style: groove;
+}
+.boton7 {
+  border-style: ridge;
+}
+.boton8 {
+  border-style: inset;
+}
+.boton9 {
+  border-style: outset;
+}
+.boton10 {
+  border-style: inherit;
+}
+table {
+  border: 20px;
+
+  background-color: rgb(105, 105, 105);
+  border: 20px solid rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+.block2{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 50px auto 50px auto;
+    box-sizing: border-box;
+    border: 10px solid red;
+}
